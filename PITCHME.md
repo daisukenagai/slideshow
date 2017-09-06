@@ -20,14 +20,14 @@
 ## HTML5
 ユーザーの環境に依存するplugin（Flashとか）をHTMLで表現できるようにしたい。  
 ウェブアプリケーションのプラットフォームとしての機能や、マルチメディア要素が実装されている。
-
++++
 ### 追加されたタグ
 - header
 - nav
 - article
 - section
 - footer
-
++++
 ### multimedia
 - video
 - canvas
