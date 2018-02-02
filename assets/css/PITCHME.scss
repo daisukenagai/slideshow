@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/earlyaccess/kokoro.css');
-$font-serif: 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif;
+@import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
+$ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif;
 
 
 // media queryの指定を統一する
@@ -26,10 +26,10 @@ $breakpoints: (
 ) !default;
 
 body {
-  font-family: "Kokoro";
+  font-family: $ff !important;
   max-width: 961px;
   margin: 0 auto;
-  font-size: 17px;
+  font-size: 17px !important;
   @include mq(sm) {
     font-size: calc(0.8125rem + ((1vw - 3.2px) * 1.0938));
     line-height: calc(0.8125rem + ((1vw - 3.2px) * 1.0938) + 105%);
@@ -41,9 +41,11 @@ body {
 }
 .reveal {
 }
+h1,h2,h3,h4,h5, {
+  font-family: $ff !important;
+}
 h1 {
   @include mq(sm) {
-    font-family: "Kokoro" !important;
     font-size: calc(1rem + ((1vw - 3.2px) * 1.875)) !important;
   }
   @include mq(lg) {
