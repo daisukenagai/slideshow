@@ -1,4 +1,10 @@
+@charset "UTF-8";
+@font-face {
+  font-family: kokoro;
+  src: url("https://fonts.googleapis.com/earlyaccess/kokoro.css"); }
+
 body {
+  font-family: kokoro 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif;
   max-width: 961px; }
   @media screen and (min-width: 320px) {
     body {
