@@ -71,4 +71,13 @@ body {
   h3 {
     @include fontsize(16px, 22px, 28px);
   }
+  h4 {
+    @include fontsize(15px, 18px, 24px);
+  }
+  code {
+    color: #4fbaee;
+  }
+  p,li {
+    line-height: 1.2em;
+  }
 }
