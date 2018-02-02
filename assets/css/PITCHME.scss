@@ -1,7 +1,19 @@
+//================================================================================
+// vars
+//================================================================================
+// Break points
+$breakpoints: (
+  'sm': 'screen and (min-width: 320px)',
+  'md': 'screen and (min-width: 640px)',
+  'lg': 'screen and (min-width: 960px)',
+) !default;
+
 @import url('https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css');
 $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif;
 
-
+//================================================================================
+// mixins
+//================================================================================
 // media queryの指定を統一する
 @mixin mq($breakpoint: sm) {
   @media #{map-get($breakpoints, $breakpoint)} {
@@ -18,16 +30,17 @@ $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hir
     @content;
   }
 }
-// Break points
-$breakpoints: (
-  'sm': 'screen and (min-width: 320px)',
-  'md': 'screen and (min-width: 640px)',
-  'lg': 'screen and (min-width: 960px)',
-) !default;
 
+//================================================================================
+// base
+//================================================================================
+h1,h2,h3,h4,h5,p {
+  font-family: $ff !important;
+}
 body {
   font-family: $ff !important;
   max-width: 961px;
+  padding: 3% 8%;
   margin: 0 auto;
   font-size: 17px !important;
   @include mq(sm) {
@@ -38,11 +51,6 @@ body {
     font-size: 20px;
     line-height: 40px;
   }
-}
-.reveal {
-}
-h1,h2,h3,h4,h5, {
-  font-family: $ff !important;
 }
 h1 {
   @include mq(sm) {
