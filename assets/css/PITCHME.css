@@ -6,6 +6,12 @@ body {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal p, .reveal ul, .reveal li, .reveal ol {
   font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif !important; }
 
+.reveal h1 {
+  font-size: 1.5em; }
+
+.reveal h2 {
+  font-size: 1.3em; }
+
 .reveal h4 {
   font-weight: 600; }
 

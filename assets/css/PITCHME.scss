@@ -36,14 +36,14 @@ $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hir
     font-size: $s !important;
     line-height: $s + 12px;
   }
-  // @include mq(md) {
-  //   font-size: $m !important;
-  //   line-height: $m + 12px;
-  // }
-  // @include mq(lg) {
-  //   font-size: $l !important;
-  //   line-height: $l + 12px;
-  // }
+  @include mq(md) {
+    font-size: $m !important;
+    line-height: $m + 12px;
+  }
+  @include mq(lg) {
+    font-size: $l !important;
+    line-height: $l + 12px;
+  }
 }
 //================================================================================
 // base
@@ -62,9 +62,11 @@ body {
     font-family: $ff !important;
   }
   h1 {
-    // @include fontsize(24px, 30px, 48px);
+    font-size: 1.5em;
+    // @include fontsize(1.7em, 30px, 1.7em);
   }
   h2 {
+    font-size: 1.3em;
     // @include fontsize(18px, 24px, 38px);
   }
   h3 {
