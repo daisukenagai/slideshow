@@ -1,0 +1,51 @@
+// media queryの指定を統一する
+@mixin mq($breakpoint: sm) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+@mixin mq($breakpoint: lg) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+// Break points
+$breakpoints: (
+  'sm': 'screen and (min-width: 320px)',
+  'md': 'screen and (min-width: 640px)',
+  'lg': 'screen and (min-width: 960px)',
+) !default;
+
+body {
+  @include mq(sm) {
+    font-size: calc(0.8125rem + ((1vw - 3.2px) * 1.0938));
+    line-height: calc(0.8125rem + ((1vw - 3.2px) * 1.0938) + 105%);
+  }
+  @include mq(lg) {
+    font-size: 20px;
+    line-height: 40px;
+  }
+}
+h1 {
+  @include mq(sm) {
+    font-size: calc(1rem + ((1vw - 3.2px) * 1.875));
+  }
+  @include mq(lg) {
+    font-size: 28px;
+  }
+}
+h2 {
+  @include mq(sm) {
+    font-size: calc(0.9375rem + ((1vw - 3.2px) * 1.875));
+    letter-spacing: -0.03em;
+  }
+  @include mq(lg) {
+    font-size: 27px;
+    line-height: 36px;
+  }
+}

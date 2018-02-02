@@ -1,0 +1,15 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:daisukenagai/slideshow.git",
+  "author": "daisuke nagai <tukinuketa@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/css/PITCHME.scss assets/css/PITCHME.css",
+    "watch-scss": "node-sass --include-path scss assets/css/PITCHME.scss assets/css/PITCHME.css -w"
+  }
+}

@@ -1,6 +1,6 @@
 # create slides by gitpitch
 ## access my slide
-https://github.com/gitpitch/daisukenagai/slideshow
+https://gitpitch.com/daisukenagai/slideshow
 
 ## GITPITCH記法
 ### ページの区切り
