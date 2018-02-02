@@ -55,8 +55,8 @@ body {
 
 .reveal {
   max-width: 961px;
+  margin: 0 auto;
   // padding: 3% 8%;
-  // margin: 0 auto;
   // @include fontsize(14px, 18px, 24px);
   h1,h2,h3,h4,h5,p,ul,li,ol {
     font-family: $ff !important;
