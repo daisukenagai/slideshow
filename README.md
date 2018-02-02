@@ -1,3 +1,7 @@
+# create slides by gitpitch
+## access my slide
+https://github.com/gitpitch/daisukenagai/slideshow
+
 ## GITPITCH記法
 ### ページの区切り
 - 「---」で区切ると左右に画面遷移
