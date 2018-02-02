@@ -33,13 +33,13 @@ $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hir
 
 @mixin fontsize($s, $m, $l) {
   @include mq(sm) {
-    font-size: $s;
+    font-size: $s !important;
   }
   @include mq(md) {
-    font-size: $m;
+    font-size: $m !important;
   }
   @include mq(lg) {
-    font-size: $l;
+    font-size: $l !important;
   }
 }
 //================================================================================
@@ -47,22 +47,23 @@ $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hir
 //================================================================================
 body {
   font-family: $ff !important;
+  @include fontsize(14px, 18px, 24px);
 }
 
 
 .reveal {
-  max-width: 961px;
-  padding: 3% 8%;
-  margin: 0 auto;
+  // max-width: 961px;
+  // padding: 3% 8%;
+  // margin: 0 auto;
   @include fontsize(14px, 18px, 24px);
   h1,h2,h3,h4,h5,p {
     font-family: $ff !important;
   }
   h1 {
-    @include fontsize(24px, 30px, 38px);
+    @include fontsize(24px, 30px, 48px);
   }
   h2 {
-    @include fontsize(18px, 24px, 32px);
+    @include fontsize(18px, 24px, 38px);
   }
   h3 {
     @include fontsize(16px, 22px, 28px);
