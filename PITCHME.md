@@ -1,9 +1,7 @@
 # Speed Hackathon LT
 +++
 ## スピードアップしたいサイト
-遺伝子ダイエット（記事）  
-https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html  
-をAMPにするためにやってきました。
+記事LPをAMPにするためにやってきました。
 +++
 ### Score
 始める前のスコア
