@@ -1,20 +1,25 @@
 # Speed Hackathon LT
 +++
 ## スピードアップしたいサイト
-遺伝子ダイエット（記事LP）  
+遺伝子ダイエット（記事）  
 https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html  
 をAMPにするためにやってきました。
 +++
-### 始める前のスコア
+### Score
+始める前のスコア
 +++
 Develop sever
 ![speed hack](assets/images/idenshi_dev_LH_before.png)
 
+DHC Server
+![speed hack](assets/images/idenshi_dhc_LH_before.png)
 
+
+<!-- section -->
 +++
-## AMP
-### 調査
-AMPの記法で試した
+# AMP
++++
+### まずはAMPで書いてみることに。
 +++
 Before
 ![speed hack](assets/images/idenshi_dev_LH_after.png)
@@ -40,12 +45,13 @@ canonical
 ![speed hack](assets/images/before.png)
 
 +++
-noto-fontをはずす
+Noto fontをはずす
 ![speed hack](assets/images/amp_after.png)
 
 +++
-## SPEED　HACK
-前半で話されていたハックを試す
+# SPEED　HACK
++++
+1. AMPで改善した箇所を継承しつつ、元の仕様に戻す
 +++
 Before
 ![speed hack](assets/images/spd_normal.png)
@@ -56,9 +62,8 @@ font外した
 
 
 
-<!-- section -->
 +++
-## 結果
+# 結果
 +++
 ### Speed hackとAMP
 Speed hack
@@ -80,3 +85,9 @@ AMP
 ![speed hack](assets/images/amp_performance.png)
 
 First meaningful paintに大きな差ができた。
+
+
++++
+# 最後に
++++
+数値化できるって素晴らしい！
