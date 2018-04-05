@@ -21,7 +21,7 @@ DHC Server
 +++
 ### まずはAMPで書いてみることに。
 +++
-Before
+とりあえずAMPの書き方にした結果
 ![speed hack](assets/images/idenshi_dev_LH_after.png)
 +++
 ### 嫌な予感・・・
@@ -45,21 +45,22 @@ canonical
 ![speed hack](assets/images/before.png)
 
 +++
+# NOTO FONT (；´∀｀)
+
++++
 Noto fontをはずす
 ![speed hack](assets/images/amp_after.png)
 
 +++
 # SPEED　HACK
 +++
-1. AMPで改善した箇所を継承しつつ、元の仕様に戻す
+AMPで改善した箇所を継承しつつ、元の仕様に戻す
 +++
-Before
+スピードハックしただけのやつ
 ![speed hack](assets/images/spd_normal.png)
 
-After
 font外した
 ![speed hack](assets/images/spd_after2.png)
-
 
 
 +++
@@ -71,6 +72,9 @@ Speed hack
 
 AMP
 ![speed hack](assets/images/amp_after.png)
++++
+![speed hack](assets/images/amp_after.png)
+
 +++
 結果的にSpeed hackの方がスコアは良かった。
 
@@ -84,6 +88,9 @@ SPD
 AMP
 ![speed hack](assets/images/amp_performance.png)
 
++++
+AMP
+![speed hack](assets/images/amp_performance.png)
 First meaningful paintに大きな差ができた。
 
 
