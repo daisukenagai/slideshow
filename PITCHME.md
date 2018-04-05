@@ -1,22 +1,16 @@
-#
-
+# Speed Hackathon LT
 +++
 ## スピードアップしたいサイト
-遺伝子ダイエット  
+遺伝子ダイエット（記事LP）  
 https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html  
 をAMPにするためにやってきました。
 +++
-### Score
-始める前のスコア
+### 始める前のスコア
 +++
 Develop sever
 ![speed hack](assets/images/idenshi_dev_LH_before.png)
 
-DHC Server
-![speed hack](assets/images/idenshi_dhc_LH_before.png)
 
-
-<!-- section -->
 +++
 ## AMP
 ### 調査
@@ -24,6 +18,14 @@ AMPの記法で試した
 +++
 Before
 ![speed hack](assets/images/idenshi_dev_LH_after.png)
++++
+### 嫌な予感・・・
+そもそも・・・
+
++++
+### Shift-jis！
+クライアントの環境がshift-jisでした。。。
+(；´Д｀)
 
 +++
 UTF-8
@@ -38,7 +40,6 @@ canonical
 ![speed hack](assets/images/before.png)
 
 +++
-Preload
 noto-fontをはずす
 ![speed hack](assets/images/amp_after.png)
 
@@ -58,16 +59,20 @@ font外した
 <!-- section -->
 +++
 ## 結果
++++
 ### Speed hackとAMP
 Speed hack
 ![speed hack](assets/images/spd_after2.png)
 
 AMP
 ![speed hack](assets/images/amp_after.png)
-
-<!-- section -->
 +++
-何が違うのか、パフォーマンスを見比べる
+結果的にSpeed hackの方がスコアは良かった。
+
++++
+### パフォーマンスを見比べる
++++
+
 SPD
 ![speed hack](assets/images/spd_performance.png)
 
