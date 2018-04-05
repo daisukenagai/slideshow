@@ -61,6 +61,9 @@ AMPで改善した箇所を継承しつつ、元の仕様に戻す
 
 font外した
 ![speed hack](assets/images/spd_after2.png)
++++
+font外した
+![speed hack](assets/images/spd_after2.png)
 
 
 +++
