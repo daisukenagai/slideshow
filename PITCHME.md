@@ -1,115 +1,83 @@
-# そろそろUXはじめませんか？
+#
+## Target
+遺伝子ダイエット  
+https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html  
+### Score
+Develop sever
+[assets/images/idenshi_dev_LH_before.png]
 
-<!-- section -->
-+++
-# 提案したいこと
-- `仮説検証`の精度をあげる
-- あたらしい`制作手法`
-- LPの`機能追加`
-
-<!-- section -->
-+++
-# 仮説づくりと検証の方法
-+++
-現状  
-- 説得力のある仮説が立てられてない。  
-- 感覚に頼った改善になっている。  
-+++
-したいこと  
-`問題の定義`とその`解決`  
-
-+++
-## 調査の種類
-+++
-- 定`量`調査
-- 定`性`調査
-+++
-### 定量
-#### `"どのくらいの数の、あるいはどの程度の"`
-アクセス解析、ヒートマップ  
-G.A、UserDive, PTengine
-
-+++
-### 定性
-数量では表せないことを発見する
-- ユーザーの発言、行動、感情など
-#### `"なぜ問題が起こり、どのように修正すべきなのか"`
-+++
-#### 具体的な手法
-+++
-- 操作画面の録画
-- ユーザーテスト
-- エスノグラフィー（Dからもらえないかな）
-- リアルなユーザーからのフィードバックを得る（Dからもらえないかな）
-- カスタマージャーニーマップ（Dからもらえないかな）
-- ペルソナ（Dからもらえないかな）
-+++
-
-これらをどのようなワークフローで実現するか  
+DHC Server
+[assets/images/idenshi_dhc_LH_before.png]
 
 
 
-<!-- section -->
-+++
-# 新しい制作手法
-# 光速でフィードバックループ（PDCAサイクル）を回す
-+++
-## (例)Google 5days Sprint
-+++
-５日間で
-1. 問題の洗い出しからアイデア出し
-1. プロトタイプの制作
-1. ユーザーテスト
-を完遂する。
-+++
-1. 月曜日：「何が問題か、問題をどうすればいいか」を洗い出す
-1. 火曜日：アイデア出しをする
-1. 水曜日：ベストのソリューションを決定し、内容を詰める
-1. 木曜日：試作品（プロトタイプ）を作る
-1. 金曜日：ユーザーテストをする
-+++
-スプリント = 全力疾走
+## SPEED　HACK
+Before
+[assets/images/spd_normal.png]
+
+After
+font外した
+[assets/images/spd_after2.png]
 
 
 
-<!-- section -->
-+++
-# 実行するために
-+++
-いまのままだと、既存の業務で手一杯だよね・・・
-+++
-## 例えば
-- 思い切り振り切るものは月に一本（1商材？）にして、注力する。
-- その他は今まで通りをキープ
+
+
+## AMP
+### 調査
+AMPの記法で試した
+Before
+[assets/images/idenshi_dev_LH_after.png]
+
+UTF-8
+[assets/images/idenshi_dev_LH_UTF-8.png]
+
+Image min
+[assets/images/idenshi_dev_LH_imagemin.png]
+
+canonical
+[assets/images/before.png]
+
+Preload
+noto-fontをはずす
+[assets/images/amp_after.png]
+
+
+## 結果
+### Speed hackとAMP
+Speed hack
+[assets/images/spd_after2.png]
+
+AMP
+[assets/images/amp_after.png]
+
+
+何が違うのか、パフォーマンスを見比べる
+SPD
+[assets/images/spd_performance.png]
+
+AMP
+[assets/images/amp_performance.png]
+
+First meaningful paintに大きな差ができた。
+
+### フォントのpreloadについて
+Preloadするかしないかで大きくスコアに差が出た
+これはAMPもSpeedhackも同じ
+
+Preloadしない
+[assets/images/without_preload_spd.png]
+
+Preloadしたら
+[assets/images/spd_after.png]
 
 
 
-<!-- section -->
-+++
-# LPへの機能追加
-+++
-## LPが持っている機能
-+++
-- カートに入れる（操作感）
-- 買い合わせる（操作感）
-- 伝えるする（コンテンツ）
-- 印象（コンテンツ）
-- ヘッダー・フッター（信頼性、あるいは他への興味）
 
-
-
-<!-- section -->
----
-# Memo
-## Design Thinking（IDEO）の例
-+++
-①ビジネス的に価値があるか  
-②技術的に実現可能か  
-③ユーザーにとって価値があるかどうか  
-+++
-### `攻める`クリエイティブって何？
-+++
-奇をてらったり、思いつきでやると運まかせになる  
-攻める方針や軸が必要
-- 軸の中心をクライアントからエンドユーザーに向ける
-- まずはそれらを満足させるための根本的な状況（ワークフロー）を整える
+### Responsiveについて
+AMPの記述法でデスクトップ用に拡張する
+レスポンシブ関連
+[Accelerated Mobile Pages Project – AMP](https://www.ampproject.org/ja/)
+[Strawberry Rose Crepe Cake Recipe by Tasty](https://tasty.co/recipe/strawberry-rose-crepe-cake)
+Startar kit
+[AMP Start - Templates](https://www.ampstart.com/templates#news-blog)
