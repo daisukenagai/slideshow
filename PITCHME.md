@@ -11,8 +11,8 @@ https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html
 Develop server
 ![speed hack](assets/images/idenshi_dev_LH_before.png)
 
-DHC Server
-![speed hack](assets/images/idenshi_dhc_LH_before.png)
+<!-- DHC Server
+![speed hack](assets/images/idenshi_dhc_LH_before.png) -->
 
 
 <!-- section -->
