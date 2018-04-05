@@ -1,83 +1,77 @@
 #
-## Target
+
++++
+## スピードアップしたいサイト
 遺伝子ダイエット  
 https://top.dhc.co.jp/shop/ad/sph/idenshi/adv/index_n_basaj.html  
+をAMPにするためにやってきました。
++++
 ### Score
+始める前のスコア
++++
 Develop sever
-[assets/images/idenshi_dev_LH_before.png]
+[image:assets/images/idenshi_dev_LH_before.png]
 
 DHC Server
-[assets/images/idenshi_dhc_LH_before.png]
+[image:assets/images/idenshi_dhc_LH_before.png]
 
 
-
-## SPEED　HACK
-Before
-[assets/images/spd_normal.png]
-
-After
-font外した
-[assets/images/spd_after2.png]
-
-
-
-
-
+<!-- section -->
++++
 ## AMP
 ### 調査
 AMPの記法で試した
++++
 Before
-[assets/images/idenshi_dev_LH_after.png]
+[image:assets/images/idenshi_dev_LH_after.png]
 
++++
 UTF-8
-[assets/images/idenshi_dev_LH_UTF-8.png]
+[image:assets/images/idenshi_dev_LH_UTF-8.png]
 
++++
 Image min
-[assets/images/idenshi_dev_LH_imagemin.png]
+[image:assets/images/idenshi_dev_LH_imagemin.png]
 
++++
 canonical
-[assets/images/before.png]
+[image:assets/images/before.png]
 
++++
 Preload
 noto-fontをはずす
-[assets/images/amp_after.png]
+[image:assets/images/amp_after.png]
+
++++
+## SPEED　HACK
+前半で話されていたハックを試す
++++
+Before
+[image:assets/images/spd_normal.png]
+
+After
+font外した
+[image:assets/images/spd_after2.png]
 
 
+
+<!-- section -->
++++
 ## 結果
 ### Speed hackとAMP
 Speed hack
-[assets/images/spd_after2.png]
+[image:assets/images/spd_after2.png]
 
 AMP
-[assets/images/amp_after.png]
+[image:assets/images/amp_after.png]
 
-
+<!-- section -->
++++
 何が違うのか、パフォーマンスを見比べる
 SPD
-[assets/images/spd_performance.png]
+[image:assets/images/spd_performance.png]
 
 AMP
-[assets/images/amp_performance.png]
+[image:assets/images/amp_performance.png]
 
 First meaningful paintに大きな差ができた。
-
-### フォントのpreloadについて
-Preloadするかしないかで大きくスコアに差が出た
-これはAMPもSpeedhackも同じ
-
-Preloadしない
-[assets/images/without_preload_spd.png]
-
-Preloadしたら
-[assets/images/spd_after.png]
-
-
-
-
-### Responsiveについて
-AMPの記述法でデスクトップ用に拡張する
-レスポンシブ関連
-[Accelerated Mobile Pages Project – AMP](https://www.ampproject.org/ja/)
-[Strawberry Rose Crepe Cake Recipe by Tasty](https://tasty.co/recipe/strawberry-rose-crepe-cake)
-Startar kit
-[AMP Start - Templates](https://www.ampstart.com/templates#news-blog)
