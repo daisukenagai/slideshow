@@ -56,9 +56,6 @@ AMPで改善した箇所を継承しつつ、元の仕様に戻す
 +++
 スピードハックしただけのやつ
 ![speed hack](assets/images/spd_normal.png)
-
-font外した
-![speed hack](assets/images/spd_after2.png)
 +++
 font外した
 ![speed hack](assets/images/spd_after2.png)
@@ -71,9 +68,8 @@ font外した
 Speed hack
 ![speed hack](assets/images/spd_after2.png)
 
-AMP
-![speed hack](assets/images/amp_after.png)
 +++
+AMP
 ![speed hack](assets/images/amp_after.png)
 
 +++
@@ -105,4 +101,4 @@ pug, sass
 Light House, Web Page Test
 +++
 # 数値化できるって素晴らしい！
-さぁ、あとは説得するだけだぜ！
+さぁ、あとは実装するだけ！
