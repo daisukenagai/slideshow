@@ -6,7 +6,7 @@
 > もうなんでもいいです。
 > なんでもいいから、表示が速くて画面遷移がスムーズなものにしてユーザーに好かれましょう。
 +++
-[before](/daisukenagai/slideshow/assets/images/mario.png)　👉　[after](/daisukenagai/slideshow/assets/images/mario.gif)
+[before](/daisukenagai/slideshow/whats_amp/assets/images/mario.png)　👉　[after](/daisukenagai/slideshow/whats_amp/assets/images/mario.gif)
 +++
 ### なんで高速化にそんなにこだわるの？
 +++
