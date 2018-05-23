@@ -6,19 +6,20 @@
 > もうなんでもいいです。
 > なんでもいいから、表示が速くて画面遷移がスムーズなものにしてユーザーに好かれましょう。
 +++
-![before](assets/images/logo.png)　👉　![after](assets/images/mario.gif)
+![before](assets/images/mario.png)
+👇
+![after](assets/images/mario.gif)
+
 +++
 ### なんで高速化にそんなにこだわるの？
+
 +++
 それは様々な調査で
+
 > - 53%の訪問者はページの表示が3秒遅れるだけで離脱する
 > - 1秒表示が遅れるごとに20%ものコンバージョン率が減る
 
- という結果が出ているから
-
- +++
-(；´Д｀)
- 多様なデバイス・あらゆる環境での __モバイルWebにおいて__ 、ページスピードは非常に重要になってきている。
+という結果が出ているから
 
 +++
 3秒で表示されていたページが1 秒で表示されれば、
@@ -26,7 +27,12 @@
 - __離脱率の53%を抑え、__
 - __40%のコンバージョン率を改善__
 
-できる、ということになりますね😎
+ということになりますね😎
+
++++
+(；´Д｀)
+ 多様なデバイス・あらゆる環境での__モバイルWebにおいて__
+ ページスピードは非常に重要になってきている
 
 +++
 ここで理解してほしいのは、
@@ -34,30 +40,33 @@ __スピード改善できればAMPじゃなくてもOK__
 ということ。
 +++
 ## そう、なんでもいいから早くしろ！
-+++
-では、AMPの良さってなんでしょう？
 
 +++
-## 高速で表示させるためのAMP HTML
-爆速なWebサイトを作るため􏰀のフレームワーク
-
+## じゃ、AMPじゃなくてもいい？いや、AMPすげぇ
++++
+## AMPってなに？
+爆速なWebサイトを作る為のフレームワーク
 +++
 ### なんで早くなるの？
 +++
 - 基本的にJavascriptは使わせない！
 - AMPが用意するWeb Componentsを利用する
++++
 ページロードを阻害する要素をそもそも使わせないルール
 このルールに則ることで、重い挙動の原因となるものがない状態になる
 +++
+
 - Validatorをパスするページは __Google AMP Cache__ を利用できる
+
++++
 googleのCDNキャッシュを使えるようになる
 
 +++
 ### こんな良さもあります
-- Google Search経由の􏰀アクセス􏰁は最速
-- モバイルのChromeの、検索結果カルーセル部分に記事コンテンツが表示
-- レスポンシブなサイトも構築可能
-- 実はダイナミックなサイト（ECとか）にも適用可能
+- Google Search経由のアクセスは最速
+- 検索結果カルーセル部分に記事コンテンツが表示
+- ResponsiveなサイトもOK
+- 実はDynamicなサイト（ECとか）もOK
 
 +++
 ## スピード比較
@@ -65,13 +74,13 @@ googleのCDNキャッシュを使えるようになる
 そのスピード比較をしましょう
 
 +++
-- [これまでのLP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_n_basaj.html)
-- [AMP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html)
-- [SPD](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html)
+- [これまでのLP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_n_basaj.html) ↗️
+- [AMP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html) ↗️
+- [SPD](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html) ↗️
 +++
 パフォーマンス計測
 - Lighthouse
-- [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
+- [WebPagetest](https://www.webpagetest.org/) ↗️
 
 
 +++
@@ -82,12 +91,12 @@ Ampの仕様に則ってコードを書き換えてみました。
 
 残念なことに開発環境ではベーシック認証がかかっているため、
 ロードスピード爆速化の要である、CDNを利用できていません。
-
-ただ、それでもこのパフォーマンスです。
++++
+ただ、それでもこのパフォーマンスです。( ｰ`дｰ´)ｷﾘｯ
 つまり、 __仕様に準拠するだけでスピード改善__しているということです。
-
++++
+(；´∀｀)
 また、そもそもなんですが、DHCの場合はサーバーの文字コードがshift-jisなので仕様から外れます。
-現状、労力をかけてまで、実装する意味が
 
 +++
 ### Speed hack
