@@ -6,7 +6,7 @@
 > もうなんでもいいです。
 > なんでもいいから、表示が速くて画面遷移がスムーズなものにしてユーザーに好かれましょう。
 +++
-<div style="vertical-alignt:middle;">
+<div style="vertical-align: middle;">
   <img src="assets/images/mario.png" width="100px" height="auto" style="border:none; margin: 0 40px;">
   👉
   <img src="assets/images/mario.gif" width="200px" height="auto" style="border:none; margin: 0 40px;">
