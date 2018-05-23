@@ -6,9 +6,11 @@
 > もうなんでもいいです。
 > なんでもいいから、表示が速くて画面遷移がスムーズなものにしてユーザーに好かれましょう。
 +++
-<img src="assets/images/mario.png" width="100px" height="auto">
-👉
-<img src="assets/images/mario.gif" width="200px" height="auto">
+<div style="vertical-alignt:middle;">
+  <img src="assets/images/mario.png" width="100px" height="auto" style="border:none; margin: 0 40px;">
+  👉
+  <img src="assets/images/mario.gif" width="200px" height="auto" style="border:none; margin: 0 40px;">
+</div>
 
 +++
 ### なんで高速化にそんなにこだわるの？
