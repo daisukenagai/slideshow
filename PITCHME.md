@@ -1,4 +1,4 @@
----?image=assets/images/amp.png
+---?image=assets/images/amp.png&size=620px 620px
 
 ## GoogleのSpeed Hackathonに参加してきました
 
