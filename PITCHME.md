@@ -40,12 +40,12 @@
 
 +++
 
-![trump](assets/images/trump-eclipse.png)
 様々な調査で・・・
 @ol
 - __53%__ の訪問者は、ページの表示が __3秒遅れるだけで離脱__ する
 - __1秒__ 表示が遅れるごとに __20%ものコンバージョン率が減る__
 @olend
+![trump](assets/images/trump-eclipse.png)
 
 +++
 
