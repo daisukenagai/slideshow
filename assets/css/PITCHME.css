@@ -1,21 +1,29 @@
 /*
-Error: Invalid CSS after "...g-bottom: 35%; ": expected "}", was "!important"
-        on line 153 of assets/css/PITCHME.scss
+Error: Invalid CSS after "    border: none;": expected "}", was "!important;"
+        on line 92 of assets/css/PITCHME.scss
 
-148: strong {
-149:   color: #4578B9;
-150:   font-size: 120%;
-151: }
-152: .pb5 {
-153:   padding-bottom: 35%; !important
-154: }
+87:     li {
+88:       margin: 4% 0;
+89:     }
+90:   }
+91:   img {
+92:     border: none;!important;
+93:   }
+94: }
+95: .gp-logo img {
+96:   width: 100px;
+97:   height: auto;
 
 Backtrace:
-assets/css/PITCHME.scss:153
+assets/css/PITCHME.scss:92
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:679:in `block'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
@@ -42,4 +50,4 @@ assets/css/PITCHME.scss:153
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"...g-bottom: 35%; \": expected \"}\", was \"!important\"\A         on line 153 of assets/css/PITCHME.scss\A \A 148: strong {\A 149:   color: #4578B9;\A 150:   font-size: 120%;\A 151: }\A 152: .pb5 {\A 153:   padding-bottom: 35%; !important\A 154: }"; }
+  content: "Error: Invalid CSS after \"    border: none;\": expected \"}\", was \"!important;\"\A         on line 92 of assets/css/PITCHME.scss\A \A 87:     li {\A 88:       margin: 4% 0;\A 89:     }\A 90:   }\A 91:   img {\A 92:     border: none;!important;\A 93:   }\A 94: }\A 95: .gp-logo img {\A 96:   width: 100px;\A 97:   height: auto;"; }
