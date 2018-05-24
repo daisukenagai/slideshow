@@ -34,15 +34,15 @@ $ff: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hir
 @mixin fontsize($s, $m, $l) {
   @include mq(sm) {
     font-size: $s !important;
-    line-height: $s + 12px;
+    line-height: $s + 20px;
   }
   @include mq(md) {
     font-size: $m !important;
-    line-height: $m + 12px;
+    line-height: $m + 20px;
   }
   @include mq(lg) {
     font-size: $l !important;
-    line-height: $l + 12px;
+    line-height: $l + 20px;
   }
 }
 //================================================================================
