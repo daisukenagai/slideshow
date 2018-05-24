@@ -1,28 +1,35 @@
 ## GoogleのSpeed Hackathonに<br>参加してきました
+
 +++
+
 そのコンセプトはシンプル！
+
 +++
-[google](/assets/images/google.png)
+
+[google](assets/images/google.png)
 > とにかくパフォーマンスのいいサイトにしましょう。
 >
 > もうなんでもいいです。
 >
 > なんでもいいから、__表示が速くて画面遷移がスムーズなもの__にして、
 > ユーザーに好かれましょう。
+
 +++
 
 ## 改善のイメージ
 <div class="mario">
-  ![before](assets/images/mario.png)
-  👉
-  ![after](assets/images/mario.gif)
+![before](assets/images/mario.png)
+👉
+![after](assets/images/mario.gif)
 </div>
 
 +++
+
 ### なぜそんなに
 ### 高速化にこだわるの？
 
 +++
+
 様々な調査で
 
 > 1. 53%の訪問者は、ページの表示が __3秒遅れるだけで離脱__ する
@@ -41,16 +48,19 @@ __1秒__ に改善されると、
 1. __コンバージョン率が40%__ 改善
 
 +++
+
 多様なデバイス・あらゆる環境での __モバイルWebにおいて__、
 
 ページスピードは非常に重要
 
 +++
+
 ここで理解してほしいのは、
 
 __スピード改善できればAMPじゃなくてもOK__
 
 +++
+
 ## ![google](assets/images/google.png) そう、なんでもいいから早くしろ！
 
 +++
@@ -58,32 +68,46 @@ __スピード改善できればAMPじゃなくてもOK__
 +++
 
 ## いやでも、AMPはやっぱりすごかった・・・
+
 +++
+
 ## AMPってなに？
 爆速なWebサイトを作る為のフレームワーク
+
 +++
+
 ### なんで早くなるの？
+
 +++
+
 - Javascriptは使わせない！
 - AMPが用意するWeb Componentsを利用する
+
 +++
+
 ページロードを阻害する要素を　__使わせない__　　
 このルールに則ることで、重い挙動の原因となるものがない状態になる
 
 +++
-- Validatorをパスするページは __Google AMP Cache__ を利用できる
+
+Validatorをパスするページは
+__Google AMP Cache__ を利用できる
 
 +++
+
 AMP HTMLが正しく記述されていれば、
-googleのCDNキャッシュが __自動的に使える__ ようになる
+
+googleのCDNキャッシュが
+__自動的に使える__
 
 +++
+
 ### こんな良さもあります
-- Google Search経由のアクセスは最速
+- Google Search経由の __アクセスは最速__
 - 検索結果カルーセル部分に記事コンテンツが表示
-- 実は、ResponsiveなサイトもOK
-- 実は実は、Dynamicなサイト（ECとか）もOK
-- PWAで更にUXを向上
+- 実は、__Responsive__ なサイトもOK
+- 実は実は、__Dynamic__ なサイト（ECとか）もOK
+- __PWA__ と併用で更にUXを向上
 
 +++
 ### PWAについて
