@@ -81,17 +81,20 @@ body {
   p,li {
     line-height: 1.2em;
   }
-}
-ol, ul {
-  list-style-position: inside;
-  margin: 4% 0;
-  li {
+  ol, ul {
+    list-style-position: inside;
     margin: 4% 0;
+    li {
+      margin: 4% 0;
+    }
   }
 }
 .gp-logo img {
   width: 100px;
   height: auto;
+}
+img {
+  border: none;
 }
 .left {
   text-align: left;
