@@ -27,22 +27,18 @@ blockquote {
   position: relative;
   margin: 2.6rem 0;
   padding: 2rem;
-  opacity: 0.8;
   border: 1px solid #DDDDDD;
   border-radius: 4px;
   font-style: italic; }
   blockquote p {
     margin: 2rem 0; }
-    blockquote p:last-child {
-      font-size: 0.75rem;
-      text-align: right; }
   blockquote:before {
     position: absolute;
     top: 1rem;
     left: 1rem;
     content: '';
     display: block;
-    background-image: url("/img/quote_before.svg");
+    background-image: url("../img/quote_before.svg");
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;
@@ -54,7 +50,7 @@ blockquote {
     right: 1rem;
     content: '';
     display: block;
-    background-image: url("/img/quote_after.svg");
+    background-image: url("../img/quote_after.svg");
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;

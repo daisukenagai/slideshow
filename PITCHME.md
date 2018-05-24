@@ -3,82 +3,85 @@
 そのコンセプトはシンプル！
 +++
 > とにかくパフォーマンスのいいサイトにしましょう。
+>
 > もうなんでもいいです。
+>
 > なんでもいいから、表示が速くて画面遷移がスムーズなものにしてユーザーに好かれましょう。
 +++
-<div style="vertical-align: middle;">
-  <img src="assets/images/mario.png" width="100px" height="auto" style="border:none; margin: 0 40px;">
+
+## 改善のイメージ
+<ul style="vertical-align: middle;">
+  [before](assets/images/mario.png)
   👉
-  <img src="assets/images/mario.gif" width="200px" height="auto" style="border:none; margin: 0 40px;">
-</div>
+  [after](assets/images/mario.gif)
+</ul>
 
 +++
 ### なんで高速化にそんなにこだわるの？
 
 +++
-それは様々な調査で
+様々な調査で
 
-> 1. 53%の訪問者はページの表示が3秒遅れるだけで離脱する
-> 2. 1秒表示が遅れるごとに20%ものコンバージョン率が減る
+> 1. 53%の訪問者は、ページの表示が __3秒遅れるだけで離脱__ する
+> 2. 1秒表示が遅れるごとに __20%ものコンバージョン率が減る__
 
-という結果が出ているから
+という結果に。
 
 +++
  __3秒__ で表示されていたページが、 __1秒__ に改善されると、
 
-- __離脱率の53%を抑え、__
-- __40%のコンバージョン率を改善__
-
-ということになりますね😎
++++
+1. __離脱率の53%__を抑え、
+1. __40%のコンバージョン率__　を改善
 
 +++
 (；´Д｀)
- 多様なデバイス・あらゆる環境での__モバイルWebにおいて__
- ページスピードは非常に重要になってきている
+ 多様なデバイス・あらゆる環境での __モバイルWebにおいて__、
+ ページスピードは非常に重要
 
 +++
 ここで理解してほしいのは、
 __スピード改善できればAMPじゃなくてもOK__
-ということ。
+
 +++
 ## そう、なんでもいいから早くしろ！
 
 +++
-## じゃ、AMPじゃなくてもいい？いや、AMPすげぇ
+## AMPじゃなくてもいいんです！
+## いやでも、AMPもすげぇ
 +++
 ## AMPってなに？
 爆速なWebサイトを作る為のフレームワーク
 +++
 ### なんで早くなるの？
 +++
-- 基本的にJavascriptは使わせない！
+- Javascriptは使わせない！
 - AMPが用意するWeb Componentsを利用する
 +++
-ページロードを阻害する要素をそもそも使わせないルール
+ページロードを阻害する要素を　__使わせない__　　
 このルールに則ることで、重い挙動の原因となるものがない状態になる
-+++
 
++++
 - Validatorをパスするページは __Google AMP Cache__ を利用できる
 
 +++
-googleのCDNキャッシュを使えるようになる
+AMP HTMLが正しく記述されていれば、
+googleのCDNキャッシュが __自動的に使える__ ようになる
 
 +++
 ### こんな良さもあります
 - Google Search経由のアクセスは最速
 - 検索結果カルーセル部分に記事コンテンツが表示
-- ResponsiveなサイトもOK
-- 実はDynamicなサイト（ECとか）もOK
+- 実は、ResponsiveなサイトもOK
+- 実は実は、Dynamicなサイト（ECとか）もOK
 
 +++
-## スピード比較
-実装してみました。
-そのスピード比較をしましょう
-
+## みんなで計測してみよう
 +++
 - [これまでのLP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_n_basaj.html) ↗️
 - [AMP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html) ↗️
 - [SPD](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html) ↗️
+
 +++
 パフォーマンス計測
 - Lighthouse
@@ -86,7 +89,7 @@ googleのCDNキャッシュを使えるようになる
 
 
 +++
-## 解説
+## やったこと
 +++
 ### AMP
 Ampの仕様に則ってコードを書き換えてみました。

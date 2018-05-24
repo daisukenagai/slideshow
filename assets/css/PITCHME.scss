@@ -91,17 +91,12 @@ blockquote {
   position: relative;
   margin: 2.6rem 0;
   padding: 2rem;
-  opacity: 0.8;
   border: 1px solid #DDDDDD;
   //: background-color rgba(0,0,0,0.2);
   border-radius: 4px;
   font-style: italic;
   p {
     margin: 2rem 0;
-    &:last-child {
-      font-size: 0.75rem;
-      text-align: right;
-    }
   }
   &:before {
     position: absolute;
@@ -109,7 +104,7 @@ blockquote {
     left: 1rem;
     content: '';
     display: block;
-    background-image: url('/img/quote_before.svg');
+    background-image: url('../img/quote_before.svg');
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;
@@ -122,7 +117,7 @@ blockquote {
     right: 1rem;
     content: '';
     display: block;
-    background-image: url('/img/quote_after.svg');
+    background-image: url('../img/quote_after.svg');
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;
