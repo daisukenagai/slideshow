@@ -1,6 +1,7 @@
+---?image=assets/images/amp.png
+
 ## GoogleのSpeed Hackathonに参加してきました
 
----?image=assets/images/amp.png
 
 +++
 
