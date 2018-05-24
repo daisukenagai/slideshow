@@ -24,7 +24,7 @@ body {
     .reveal ol li, .reveal ul li {
       margin: 4% 0; }
   .reveal img {
-    border: none; }
+    border: none !important; }
 
 .gp-logo img {
   width: 100px;
