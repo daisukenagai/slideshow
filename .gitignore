@@ -52,6 +52,7 @@ $RECYCLE.BIN/
 node_modules
 bower_components
 package-lock.json
-
+.sass-cache
+PITCHME.css.map
 #Dreamweaverのゴミファイル
 */_notes/*
