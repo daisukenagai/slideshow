@@ -19,13 +19,19 @@ body {
   .reveal p, .reveal li {
     line-height: 1.2em; }
 
+ol, ul {
+  list-style-position: inside; }
+
 .gp-logo img {
   width: 100px;
   height: auto; }
 
+.left {
+  text-align: left; }
+
 blockquote {
   position: relative;
-  padding: 30% 10%;
+  padding: 30%;
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   font-style: italic; }
@@ -55,9 +61,10 @@ blockquote {
     opacity: 0.4; }
 
 section .mario {
-  vertical-align: middle; }
+  vertical-align: middle;
+  padding: 6% 0; }
   section .mario img {
-    margin: 0 4%;
+    margin: 0 6%;
     border: none;
     width: 200px;
     height: auto; }
