@@ -1,4 +1,8 @@
+<div class="bg_amp">
+
 ## GoogleのSpeed Hackathonに参加してきました
+
+</div>
 
 +++
 
@@ -236,10 +240,11 @@ __「既存の環境で 無事に動作させられるかどうか」__
 +++
 
 ## AMP対応の課題
+@ul
 - html tagを、amp tagに書き換える必要がある
 - 既存のjsが使えなくなる
 - 導入後はAMPに準拠し続けなくてはならない
-
+@ulend
 +++
 
 <div class="left">
