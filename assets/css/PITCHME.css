@@ -54,10 +54,13 @@ blockquote {
     background-repeat: no-repeat;
     opacity: 0.4; }
 
-.mario {
+section .mario {
   vertical-align: middle; }
-  .mario img {
-    margin: 0 4%; }
+  section .mario img {
+    margin: 0 4%;
+    border: none;
+    width: 200px;
+    height: auto; }
 
 strong {
   color: #4578B9;

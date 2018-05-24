@@ -123,10 +123,13 @@ blockquote {
     opacity: 0.4;
   }
 }
-.mario {
+section .mario {
   vertical-align: middle;
   img {
     margin: 0 4%;
+    border: none;
+    width: 200px;
+    height: auto;
   }
 }
 strong {
