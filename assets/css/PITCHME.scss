@@ -84,6 +84,10 @@ body {
 }
 ol, ul {
   list-style-position: inside;
+  margin: 4% 0;
+  li {
+    margin: 4% 0;
+  }
 }
 .gp-logo img {
   width: 100px;

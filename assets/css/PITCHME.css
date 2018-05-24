@@ -20,7 +20,10 @@ body {
     line-height: 1.2em; }
 
 ol, ul {
-  list-style-position: inside; }
+  list-style-position: inside;
+  margin: 4% 0; }
+  ol li, ul li {
+    margin: 4% 0; }
 
 .gp-logo img {
   width: 100px;
