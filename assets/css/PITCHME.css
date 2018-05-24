@@ -38,7 +38,7 @@ blockquote {
     left: 1rem;
     content: '';
     display: block;
-    background-image: url("../img/quote_before.svg");
+    background-image: url("../images/quote_before.svg");
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;
@@ -50,7 +50,7 @@ blockquote {
     right: 1rem;
     content: '';
     display: block;
-    background-image: url("../img/quote_after.svg");
+    background-image: url("../images/quote_after.svg");
     width: 1.5rem;
     height: 1.5rem;
     background-size: 100%;
