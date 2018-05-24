@@ -2,4 +2,3 @@ theme : night
 theme-override : assets/css/PITCHME.css
 # highlight : monokai
 logo : assets/images/logo.png
-transition : fade
