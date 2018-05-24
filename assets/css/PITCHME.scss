@@ -89,7 +89,7 @@ body {
 
 blockquote {
   position: relative;
-  padding: 10%;
+  padding: 30% 10%;
   background-color: rgba(0,0,0,0.2);
   border-radius: 4px;
   font-style: italic;
@@ -128,4 +128,8 @@ blockquote {
   img {
     margin: 0 4%;
   }
+}
+strong {
+  color: #4578B9;
+  font-size: 120%;
 }

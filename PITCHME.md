@@ -13,9 +13,9 @@
 
 ## 改善のイメージ
 <div class="mario">
-  [before](assets/images/mario.png)
+  ![before](assets/images/mario.png)
   👉
-  [after](assets/images/mario.gif)
+  ![after](assets/images/mario.gif)
 </div>
 
 +++
@@ -51,7 +51,7 @@ __1秒__ に改善されると、
 __スピード改善できればAMPじゃなくてもOK__
 
 +++
-## [google](assets/images/google.png) そう、なんでもいいから早くしろ！
+## ![google](assets/images/google.png) そう、なんでもいいから早くしろ！
 
 +++
 ## AMPじゃなくてもいいんです！
