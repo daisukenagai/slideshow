@@ -79,7 +79,7 @@ body {
     color: #4fbaee;
   }
   p,li {
-    line-height: 1.2em;
+    line-height: 1.8em;
   }
   ol, ul {
     list-style-position: inside;
@@ -88,13 +88,13 @@ body {
       margin: 4% 0;
     }
   }
+  img {
+    border: none;
+  }
 }
 .gp-logo img {
   width: 100px;
   height: auto;
-}
-img {
-  border: none;
 }
 .left {
   text-align: left;
@@ -150,5 +150,5 @@ strong {
   font-size: 120%;
 }
 .pb5 {
-  padding-bottom: 35%;
+  padding-bottom: 35%; !important
 }
