@@ -1,8 +1,7 @@
-<div class="bg_amp">
+<div class="bg_amp"></div>
 
 ## GoogleのSpeed Hackathonに参加してきました
 
-</div>
 
 +++
 
