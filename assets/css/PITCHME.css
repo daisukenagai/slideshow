@@ -1,53 +1,83 @@
-/*
-Error: Invalid CSS after "    border: none;": expected "}", was "!important;"
-        on line 92 of assets/css/PITCHME.scss
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css");
+body {
+  font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif !important; }
 
-87:     li {
-88:       margin: 4% 0;
-89:     }
-90:   }
-91:   img {
-92:     border: none;!important;
-93:   }
-94: }
-95: .gp-logo img {
-96:   width: 100px;
-97:   height: auto;
+.reveal {
+  max-width: 961px;
+  margin: 0 auto; }
+  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal p, .reveal ul, .reveal li, .reveal ol, .reveal div, .reveal span {
+    font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, "Times New Roman", Times, serif !important; }
+  .reveal h1 {
+    font-size: 1.5em; }
+  .reveal h2 {
+    font-size: 1.3em; }
+  .reveal h4 {
+    font-weight: 600; }
+  .reveal code {
+    color: #4fbaee; }
+  .reveal p, .reveal li {
+    line-height: 1.8em; }
+  .reveal ol, .reveal ul {
+    list-style-position: inside;
+    margin: 4% 0; }
+    .reveal ol li, .reveal ul li {
+      margin: 4% 0; }
+  .reveal img {
+    border: none; }
 
-Backtrace:
-assets/css/PITCHME.scss:92
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1278:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1208:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:1203:in `tok!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:679:in `block'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:697:in `block_child'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:678:in `block'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:670:in `ruleset'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:696:in `block_child'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:689:in `block_contents'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"    border: none;\": expected \"}\", was \"!important;\"\A         on line 92 of assets/css/PITCHME.scss\A \A 87:     li {\A 88:       margin: 4% 0;\A 89:     }\A 90:   }\A 91:   img {\A 92:     border: none;!important;\A 93:   }\A 94: }\A 95: .gp-logo img {\A 96:   width: 100px;\A 97:   height: auto;"; }
+.gp-logo img {
+  width: 100px;
+  height: auto; }
+
+.left {
+  text-align: left; }
+
+blockquote {
+  position: relative;
+  padding: 30%;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  font-style: italic; }
+  blockquote p {
+    margin: 2rem 0; }
+  blockquote:before {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    content: ' “ ';
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4; }
+  blockquote:after {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    content: '”';
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.4; }
+
+section .mario {
+  vertical-align: middle;
+  padding: 6% 0; }
+  section .mario img {
+    margin: 0 6%;
+    border: none;
+    width: 200px;
+    height: auto; }
+
+strong {
+  color: #4578B9;
+  font-size: 120%; }
+
+.pb5 {
+  padding-bottom: 35%; }
+
+/*# sourceMappingURL=PITCHME.css.map */
