@@ -30,7 +30,7 @@
 
 +++
 
-なぜそんなに __高速化__ にこだわるの？
+## なぜそんなに __高速化__ にこだわるの？
 ![doge](assets/images/doge.png)
 
 +++
@@ -158,16 +158,16 @@ AMP HTMLが正しく記述されていれば、
 
 +++
 
-## さて、そろそろ計測してみようか
+## では、高速化を体感してもらいましょう
 ![doge](assets/images/doge.png)
 
 +++
+
 - [これまでのLP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_n_basaj.html) ↗️
 - [AMP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html) ↗️
 - [SPD](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html) ↗️
 
-+++
-パフォーマンス計測ツール
+## パフォーマンス計測ツール
 - Lighthouse
 - [WebPagetest](https://www.webpagetest.org/) ↗️
 
@@ -192,6 +192,7 @@ AMPキャッシュが生きてません。。。
 - __仕様に準拠するだけ__ で
 - スピード __改善__ している！
 @ulend
+
 ![doge](assets/images/doge.png)
 
 +++
@@ -199,12 +200,12 @@ AMPキャッシュが生きてません。。。
 ## AMP実装ってかんたん？
 @ul
 - 実装そのものよりも、
-- __既存の環境で 無事に動作__ させられるかどうか
+- __既存の環境__ で __無事に動作__ させられるか
 @ulend
 
 +++
 
-## AMP対応の具体的にやること
+## やらなくてはいけないこと
 @ul
 - HTMLからAMP HTMLへ
 - CSSの`!important`が使えない
@@ -214,23 +215,12 @@ AMPキャッシュが生きてません。。。
 
 +++
 
-### 起こりそうな問題
+### さらに、懸念点
 @ul
 - 別ドメインでコンテンツが配信（場合によって）
 - 3rdPartyCookieブロッキングブラウザで􏰁Cookie書込が出来ない
 - WebAppManifestによるホーム画面へ追加が動作しない
 @ulend
-
-+++
-
-# 残念なニュース
-
-+++
-
-Dのサーバーの文字コード=　__shift-jis__
-
-![doge](assets/images/doge.png)実装してもAMPとして認められません
-
 
 +++
 
@@ -246,9 +236,21 @@ Dのサーバーの文字コード=　__shift-jis__
 
 +++
 
+# 残念なニュース
+
++++
+
+Dのサーバーの文字コード =　__shift-jis__　だから・・・
+
+## 実装してもAMPとして認められません
+
+![doge](assets/images/doge.png)
+
++++
+
 ### AMPじゃないSpeed hackの方法
 @ul
-- `js` と `SSI`の除外
+- `js` と `include`の除外
 - 画像の圧縮
 - `canonical` とか詳細設定の見直し
 - css及びweb fontの `preload`
