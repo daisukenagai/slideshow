@@ -1,15 +1,11 @@
 ---?image=assets/images/amp.png&size=620px 620px
 
 # Speed Hackathon
-### @Google
+@Google
 
 +++
 
 そのコンセプトはシンプル！
-
-+++
-
-## LPを高速表示しろ！
 
 +++
 
@@ -42,7 +38,7 @@
 @ul
 - __53%__ の訪問者は、ページの表示が __3秒__ 遅れるだけで __離脱__ する
 - __1秒__ 表示が遅れるごとに __20%__ もの __コンバージョン率が減る__
-- ![trump](assets/images/trump-eclipse.png)
+-  ![trump](assets/images/trump-eclipse.png)
 @ulend
 
 +++
