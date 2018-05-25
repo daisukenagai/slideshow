@@ -28,9 +28,7 @@
 
 +++
 
-### なぜそんなに
-### __高速化__ にこだわるの？
-![doge](assets/images/doge.png)
+![doge](assets/images/doge.png)なぜそんなに __高速化__ にこだわるの？
 
 +++
 
@@ -43,21 +41,19 @@
 
 +++
 
-<div class="left">
-
 仮に・・・
+
 ## __3秒__ で表示されていたページが、
 ## __1秒__ に改善されると・・・
-
-</div>
 
 +++
 
 @ol
 - __離脱率の53%__ を抑え
 - __コンバージョン率が40%__ 改善
-- ![coin](assets/images/coin.gif)
 @olend
+
+![coin](assets/images/coin.gif)
 
 +++
 
@@ -65,12 +61,13 @@
 
 +++
 
-## モバイルWebの重さ
+## あらゆる環境
 @ul
-- ## あらゆる環境
 - 👉 屋外などの __ナローな回線__
 - 👉 信号待ちなどの __見るタイミング__
-- ## 多様なデバイス
+@ulend
+## 多様なデバイス
+@ul
 - 👉 色んな大きさ __スマホ、タブレット__
 - 👉 いろんなスペック __ハイエンドからエントリーモデル__
 @ulend
@@ -78,9 +75,7 @@
 +++
 
 さて、ここで理解してほしいのは・・・
-@ul
-- ## スピード改善できるなら __AMPじゃなくてもOK__
-@ulend
+## スピード改善できるなら __AMPじゃなくてもOK__
 
 +++
 
@@ -98,6 +93,7 @@
 +++
 
 ## やっぱり、AMPはすごかった⚡
+![doge](assets/images/doge.png)
 
 +++
 
@@ -119,22 +115,14 @@
 
 +++
 
-<div class="left">
-
 Validatorをパスするページは
 ### __Google AMP Cache__ を利用できる
-（googleが用意するCDN）
-
-</div>
+（googleが用意する __CDN__）
 
 +++
 
-<div class="left">
-
 AMP HTMLが正しく記述されていれば、
 ## googleのCDNキャッシュが__自動的に使える__
-
-</div>
 
 +++
 
@@ -167,7 +155,7 @@ AMP HTMLが正しく記述されていれば、
 +++
 
 ## さて、そろそろ計測してみようか
-![doge](assets/images/cool-doge.png)
+![doge](assets/images/doge.png)
 
 +++
 - [これまでのLP](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_n_basaj.html) ↗️
@@ -194,17 +182,13 @@ AMPキャッシュが生きてません。。。
 
 <div class="left">
 
-それでもこのパフォーマンス！
-
-<br>
-
+### それでもこのパフォーマンス！
 @ul
 - つまり・・・
 - __仕様に準拠するだけ__ で
 - スピード __改善__ している！
 @ulend
-
-</div>
+![doge](assets/images/doge.png)
 
 +++
 
@@ -229,7 +213,7 @@ AMPキャッシュが生きてません。。。
 ### 起こりそうな問題
 @ul
 - 別ドメインでコンテンツが配信（場合によって）
-- 3rdPartyCookieブロッキングブラウザで􏰁Cookie書込が出来ない
+- 3rdPartyCookieブロッキングブラウザで􏰁Cookie書込が出来ない
 - WebAppManifestによるホーム画面へ追加が動作しない
 @ulend
 
@@ -241,11 +225,12 @@ AMPキャッシュが生きてません。。。
 
 Dのサーバーの文字コード=　__shift-jis__
 
-(；´∀｀)実装してもAMPとして認められません
+![doge](assets/images/doge.png)実装してもAMPとして認められません
+
 
 +++
 
-## ⚠️
+# ⚠️
 @ul
 - 既存システムからの移行は、
 - 大きなトラブルに繋がりかねません。
@@ -257,22 +242,22 @@ Dのサーバーの文字コード=　__shift-jis__
 
 +++
 
-### AMP以外の方法で、Speed hack
+### AMPじゃないSpeed hackの方法
 @ul
-- jsとincludeの除外
+- `js` と `SSI`の除外
 - 画像の圧縮
-- canonicalとか詳細設定の見直し
-- css及びweb fontの`preload`
+- `canonical` とか詳細設定の見直し
+- css及びweb fontの `preload`
 @ulend
 
 +++
 
-# 結論
+# __結論__
 
 +++
 
 ## ⚡AMPすごい
-## でも、AMPじゃなくても早くなるよ
+## でも、__AMPじゃなくても__ 早くなるよ
 
 +++
 
@@ -287,14 +272,14 @@ Dのサーバーの文字コード=　__shift-jis__
 ## 高速表示は、最低ラインの基準
 @ul
 - まずはユーザーに __見てもらう__ ために
-- 次は、コンテンツの質が問われる時代に
+- 次は __コンテンツの質__ が問われる時代に
 @ulend
 
 +++
 
-## __よりよい体験を__ ユーザーに提供しましょう！
+## ユーザーに __よりよい体験を__！
 
 +++
 
 # お疲れ様でした！
-![doge](assets/images/doge3d.png)
+![doge](assets/images/doge3d.gif)
