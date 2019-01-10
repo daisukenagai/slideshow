@@ -85,6 +85,7 @@ LP✖️50サイト = 500万円
 +++
 ## なぜバランスが大事か
 +++
+![trump](assets/images/donald_trump.png)
 「事業系だけでいいじゃねーか」
 +++
 
@@ -137,7 +138,7 @@ LP✖️50サイト = 500万円
 
 フラクタルの様相を呈している
 
-![fractal from wikipedia](https://ja.wikipedia.org/wiki/%E3%83%95%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%AB#/media/File:Animated_construction_of_Sierpinski_Triangle.gif)
+![fractal from wikipedia](https://en.wikipedia.org/wiki/Fractal#/media/File:Frost_patterns_2.jpg)
 
 
 つまり、ミクロ・マクロ、
