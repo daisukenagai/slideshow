@@ -60,15 +60,20 @@
 
 +++
 
-## 何がネックなのか
+## スピード改善が難しいところ
 
 +++
 
-## あらゆる環境
+## ユーザーひとりひとりの環境が違うから
+
++++
+
+## シチュエーション
 @ul
 - 👉 屋外などの __ナローな回線__
 - 👉 信号待ちなどの __見るタイミング__
 @ulend
+
 
 ## 多様なデバイス
 @ul
@@ -96,7 +101,7 @@
 
 +++
 ## スピードアップしたいサイト
-遺伝子の記事LP
+遺伝子の記事LP 
 （もう今はリダイレクト中なので、実装後のページ👇）
 - [speed hacked](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html)
 - [amplifyed](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html)
