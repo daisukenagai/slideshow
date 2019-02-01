@@ -5,6 +5,10 @@
 
 +++
 
+[詳細な資料やハッカソンのログ🐙](https://github.com/CyberAgent/advertising-crs-playground/issues/13)
+
++++
+
 そのコンセプトはシンプル！
 
 +++
@@ -16,17 +20,6 @@
 > __表示が速くて画面遷移がスムーズなもの__にして、
 >
 > ユーザーに好かれましょう。
-
-+++
-
-## 改善のイメージ
-<div class="mario">
-![before](assets/images/mario.gif)
-
-<span class="pb5">👉👉👉</span>
-
-![after](assets/images/sonic.gif)
-</div>
 
 +++
 
@@ -74,6 +67,7 @@
 - 👉 信号待ちなどの __見るタイミング__
 @ulend
 
++++
 
 ## 多様なデバイス
 @ul
@@ -100,8 +94,20 @@
 # 実装してみた
 
 +++
+
+## 改善のイメージ
+<div class="mario">
+![before](assets/images/mario.gif)
+
+<span class="pb5">👉👉👉</span>
+
+![after](assets/images/sonic.gif)
+</div>
+
++++
 ## スピードアップしたいサイト
-遺伝子の記事LP 
+遺伝子の記事LP
+
 （もう今はリダイレクト中なので、実装後のページ👇）
 - [speed hacked](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html)
 - [amplifyed](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html)
