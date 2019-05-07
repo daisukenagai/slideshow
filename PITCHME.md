@@ -1,4 +1,4 @@
-@img[AMP logo](assets/images/amp.png)
+![AMP logo](assets/images/amp.png)
 
 
 # AMPをおさらい
