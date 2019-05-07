@@ -60,19 +60,19 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 +++
 
 ## スピードを計測してみよう
+#### 非AMP
+https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
+
+#### AMP
+https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 
-### Light houseを使用して、速度を測定しよう
-
-- 非AMP： https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
-- AMP： https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
-
-+++
-
-### Light houseを使う
+### Light houseで測定しよう
+@ol
 1. Chrome Devtools -> Auditsタブ
 1. performanceだけにチェックを入れて、**Run audits**
+@olend
 
 +++
 
@@ -91,14 +91,11 @@ pwampとは、AMPとPWAを併用することです。
 > また、ホーム画面にアイコンを表示することができ、トップレベルの全画面表示で読み込むことができます。
 
 +++
-要するに・・・
-普通のサイトなのに、
+### 要するに・・・
 
 - スマホのホーム画面に追加できる
 - オフラインでも閲覧できる
 - プッシュ通知を行うことができる
-
-そんな技術です
 
 +++
 
@@ -108,12 +105,16 @@ pwampとは、AMPとPWAを併用することです。
 @snapend
 
 +++
-スマホのブラウザでモバイル版のページを開く
+
+スマホのブラウザで以下を開く
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 ### Androidのchrome場合
-ページにアクセスするとインストールを促すバナーが表示されるので、__ホームスクリーンに追加__ する
+@ol
+1. インストールを促すバナーが表示される
+1. __ホームスクリーンに追加__ する
+@olend
 
 ### iOSのsafari場合
 下部にある __「ホーム画面に追加」アイコン__ をタップする
