@@ -5,27 +5,32 @@
 @snapend
 
 +++
-このスライドでは、実際にAMPとPWAをLPに実装するとどうなるかを紹介します。
-主に、
+このスライドでは、
+実際に __「AMPとPWAをLPに実装するとどうなるか」__ を体感してもらいます。
+
 - AMPと非AMPのスピード比較
-- PWAの実装について
+- オフライン表示を可能にするPWA
 
 +++
 
+@snap[midpoint span-80]
+![doge](assets/images/doge.png)
 # AMPをざっくりとおさらい
+@snapend
+
 +++
 
 @snap[midpoint span-80]
 ## 高速化の重要性
-![doge](assets/images/doge.png)
 @snapend
 
 +++
-### 表示速度に関して広く知られる調査結果
+### 表示速度に関する調査でも・・・
+![trump](assets/images/trump-eclipse.png)
+
 @ul
 - 53%の訪問者は、__ページの表示が3秒遅れるだけで離脱__ する
 - 1秒表示が遅れるごとに __20%ものコンバージョン率が減る__
-- ![trump](assets/images/trump-eclipse.png)
 @ulend
 
 +++
@@ -37,6 +42,7 @@
 +++
 
 @snap[midpoint span-80]
+![cool doge](assets/images/cool-doge.gif)
 # ここからは実際に体験しましょう
 @snapend
 
@@ -47,16 +53,16 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 ☝️Tips
-静的サイトにのみ使えると思われがちなAMPですが
-動的なコンテンツも扱うことができます。
-
-サンプルサイトの動的部分は、ランキングエリアです。
+- 静的コンテンツにのみ使えると思われがちなAMPですが
+- 動的なコンテンツも扱うことができます。
+- サンプルサイトの動的部分は、ランキングエリアです。
 
 +++
 
 ## スピードを計測してみよう
 
 +++
+
 ### Light houseを使用して、速度を測定しよう
 
 - 非AMP： https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
@@ -69,8 +75,9 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 1. performanceだけにチェックを入れて、**Run audits**
 
 +++
+
 @snap[midpoint span-80]
-# PWAMPでUXを最大化する
+# PWAMPでユーザーとの距離を一気に縮める
 pwampとは、AMPとPWAを併用することです。
 @snapend
 
@@ -96,6 +103,7 @@ pwampとは、AMPとPWAを併用することです。
 +++
 
 @snap[midpoint span-80]
+![3d doge](assets/images/doge3d.gif)
 # ホームに追加してみましょう
 @snapend
 

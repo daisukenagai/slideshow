@@ -4,4 +4,5 @@ theme-override : assets/css/PITCHME.css
 highlight : monokai
 logo : assets/images/logo_yoshiko.png
 published : true
+transition : fade
 footnote : "2019.05"
