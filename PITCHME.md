@@ -1,10 +1,21 @@
 @snap[midpoint span-80]
-AMPとPWAを社名検索LPに実装した結果・・・
+# AMPとPWAを社名検索LPに実装した結果・・・
 ![AMP logo](assets/images/amp_logo.png)
 @snapend
 
 +++
 # AMPをおさらい
++++
+## なぜそんなに __高速化__ にこだわるの？
+![doge](assets/images/doge.png)
+
++++
+様々な調査で・・・
+@ul
+- __53%__ の訪問者は、ページの表示が __3秒__ 遅れるだけで __離脱__ する
+- __1秒__ 表示が遅れるごとに __20%__ もの __コンバージョン率が減る__
+@ulend
+![trump](assets/images/trump-eclipse.png)
 
 +++
 ## AMPが早い理由
