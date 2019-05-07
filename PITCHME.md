@@ -1,149 +1,85 @@
----?image=assets/images/amp.png&size=620px 620px
+@img[AMP logo](assets/images/amp.png)
 
-# SPEED HACKATHON
-@Google
+AMPが早い理由
+
+
+技術的な意味でのAMPとは？
+HTMLフレームワークです。
+HTMLをAMP⚡HTMLという形式に則って拡張することで、先述のAMPコンポーネンツやAMPキャッシュの恩恵を享受することができる。
+
+
+# AMPを実装した
+https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
+
++++
+☝️Tips
+静的サイトにのみ使えると思われがちなAMPですが
+動的なコンテンツも扱うことができます。
+DHCの社名検索サイトにおける、動的部分は、ランキングエリアです。
+
++++
+どれくらいSpeed hackが成功しているか？
+Light houseを使用して、速度を測定しよう
+
++++
+### 測定するサイト
+- 非AMP： https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
+- AMP： https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 
-[詳細な資料やハッカソンのログ🐙](https://github.com/CyberAgent/advertising-crs-playground/issues/13)
+### Light houseを使う
+1. Chrome Devtools -> Auditsタブ
+1. performanceだけにチェックを入れて、**Run audits**
 
 +++
-
-そのコンセプトはシンプル！
-
-+++
-
-> とにかくパフォーマンスのいいサイトにしましょう。
->
-> なんでもいいから
->
-> __表示が速くて画面遷移がスムーズなもの__にして、
->
-> ユーザーに好かれましょう。
+# PWAMPでUXを最大化する
+pwampとは、AMPとPWAの技術を併用することです。
 
 +++
-
-## なぜそんなに __高速化__ にこだわるの？
-![doge](assets/images/doge.png)
+## PWAとは？
 
 +++
-
-様々な調査で・・・
-@ul
-- __53%__ の訪問者は、ページの表示が __3秒__ 遅れるだけで __離脱__ する
-- __1秒__ 表示が遅れるごとに __20%__ もの __コンバージョン率が減る__
-@ulend
-![trump](assets/images/trump-eclipse.png)
+> プログレッシブ ウェブアプリ はウェブとアプリの両方の利点を兼ね備えたアプリです。
+> 不安定なネットワークでも迅速に起動し、関連性の高いプッシュ通知を送信することができます。
+> また、ホーム画面にアイコンを表示することができ、トップレベルの全画面表示で読み込むことができます。
 
 +++
+要するに・・・
+普通のサイトなのに、
 
-仮に・・・
+- スマホのホーム画面に追加できる
+- オフラインでも閲覧できる
+- プッシュ通知を行うことができる
 
-## __3秒__ で表示されていたページが、
-## __1秒__ に改善されると・・・
-
-+++
-
-@ol
-- __離脱率の53%__ を抑え
-- __コンバージョン率が40%__ 改善
-@olend
-
-![coin](assets/images/coin.gif)
+そんな技術です
 
 +++
+## PWAMPを実装してみた
+スマホのブラウザでモバイル版のページを開く
+https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
-## スピード改善が難しいところ
+Androidのchrome場合
+ページにアクセスするとインストールを促すバナーが表示されるので、ホームスクリーンに追加する
 
-+++
-
-## ユーザーひとりひとりの環境が違うから
-
-+++
-
-## シチュエーション
-@ul
-- 👉 屋外などの __ナローな回線__
-- 👉 信号待ちなどの __見るタイミング__
-@ulend
-
-+++
-
-## 多様なデバイス
-@ul
-- 👉 サイズ __スマホ/タブレット/laptop__
-- 👉 スペック __高 / 低__
-@ulend
-
-+++
-
-# ページスピードは非常に __重要__
-
-+++
-
-![trump](assets/images/donald_trump.png)
-# そう、なんでもいいから早くしろ！
-
-+++
-
-## スピード改善がテーマ
-## だから __AMPじゃなくて__ もいいんです！
-
-+++
-
-# 実装してみた
-
-+++
-
-## 改善のイメージ
-<div class="mario">
-![before](assets/images/mario.gif)
-
-<span class="pb5">👉👉👉</span>
-
-![after](assets/images/sonic.gif)
-</div>
-
-+++
-## スピードアップしたいサイト
-遺伝子の記事LP
-
-（もう今はリダイレクト中なので、実装後のページ👇）
-- [speed hacked](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_spd.html)
-- [amplifyed](http://develop.ca-test-dhc.com/shop/ad/sph/idenshi/adv/index_amp.html)
-
-+++
-### Score
-始める前のスコア
-+++
-Develop server
-![speed hack](assets/images/idenshi_dev_LH_before.png)
-
-+++
-
-### 軽量化メニュー
-- image minify
-- canonical
-- web font
-
-+++
-### 計測ツール
-- Light House(chrome 👉 audits)
-- [Web Page Test](https://www.webpagetest.org/)
-+++
-### Image min
-![speed hack](assets/images/idenshi_dev_LH_imagemin.png)
-
-+++
-### canonical
-![speed hack](assets/images/before.png)
-
-+++
-### Noto fontをはずす
-![speed hack](assets/images/amp_after.png)
+iOSのsafari場合
+下部にある「ホーム画面に追加」アイコンをタップする
 
 
 +++
-# 結果
+## AMP導入の注意点
+それは、AMPでなければ、実現できないことか？
+この前提が崩れると、技術的な障壁による導入コストの増大、スピード改善できたけれど思うような結果に繋がらない。
+
 +++
-![speed hack](assets/images/spd_after2.png)
+最終チェックポイント
+- ターゲットはモバイルデバイスか？
+- AMPでなくてもスピード改善で十分早くなる
+
+
++++
+
+AMPで、より良いUXを提供しましょう！
+@snap[midpoint span-50]
+@img[AMP logo](assets/images/amp.png)
+@snapend
