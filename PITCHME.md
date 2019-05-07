@@ -1,46 +1,64 @@
 @snap[midpoint span-80]
-# AMPとPWAを社名検索LPに実装した結果・・・
+# AMPとPWAの
+# パワフルさを堪能しよう！
 ![AMP logo](assets/images/amp_logo.png)
 @snapend
 
 +++
-# AMPをおさらい
+このスライドでは、実際にAMPとPWAをLPに実装するとどうなるかを紹介します。
+主に、
+- AMPと非AMPのスピード比較
+- PWAの実装について
+
 +++
-## なぜそんなに __高速化__ にこだわるの？
+
+# AMPをざっくりとおさらい
++++
+
+@snap[midpoint span-80]
+## 高速化の重要性
 ![doge](assets/images/doge.png)
+@snapend
 
 +++
-様々な調査で・・・
+### 表示速度に関して広く知られる調査結果
 @ul
-- __53%__ の訪問者は、ページの表示が __3秒__ 遅れるだけで __離脱__ する
-- __1秒__ 表示が遅れるごとに __20%__ もの __コンバージョン率が減る__
+- 53%の訪問者は、__ページの表示が3秒遅れるだけで離脱__ する
+- 1秒表示が遅れるごとに __20%ものコンバージョン率が減る__
+- ![trump](assets/images/trump-eclipse.png)
 @ulend
-![trump](assets/images/trump-eclipse.png)
 
 +++
+
 ## AMPが早い理由
+- 挙動が遅くなるものを読み込ませない
+- AMPキャッシュというCDNが使える
 
 +++
-技術的な意味でのAMPとは？
-HTMLフレームワークです。
-HTMLをAMP⚡HTMLという形式に則って拡張することで、先述のAMPコンポーネンツやAMPキャッシュの恩恵を享受することができる。
+
+@snap[midpoint span-80]
+# ここからは実際に体験しましょう
+@snapend
 
 +++
-# AMPを実装した
+
+## AMPを実装したサイトを紹介
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 ☝️Tips
 静的サイトにのみ使えると思われがちなAMPですが
 動的なコンテンツも扱うことができます。
-DHCの社名検索サイトにおける、動的部分は、ランキングエリアです。
+
+サンプルサイトの動的部分は、ランキングエリアです。
 
 +++
-どれくらいSpeed hackが成功しているか？
-Light houseを使用して、速度を測定しよう
+
+## スピードを計測してみよう
 
 +++
-### 測定するサイト
+### Light houseを使用して、速度を測定しよう
+
 - 非AMP： https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
 - AMP： https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
@@ -51,10 +69,13 @@ Light houseを使用して、速度を測定しよう
 1. performanceだけにチェックを入れて、**Run audits**
 
 +++
+@snap[midpoint span-80]
 # PWAMPでUXを最大化する
-pwampとは、AMPとPWAの技術を併用することです。
+pwampとは、AMPとPWAを併用することです。
+@snapend
 
 +++
+
 ## PWAとは？
 
 +++
@@ -73,31 +94,41 @@ pwampとは、AMPとPWAの技術を併用することです。
 そんな技術です
 
 +++
-## PWAMPを実装してみた
+
+@snap[midpoint span-80]
+# ホームに追加してみましょう
+@snapend
+
++++
 スマホのブラウザでモバイル版のページを開く
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
-Androidのchrome場合
-ページにアクセスするとインストールを促すバナーが表示されるので、ホームスクリーンに追加する
++++
+### Androidのchrome場合
+ページにアクセスするとインストールを促すバナーが表示されるので、__ホームスクリーンに追加__ する
 
-iOSのsafari場合
-下部にある「ホーム画面に追加」アイコンをタップする
-
+### iOSのsafari場合
+下部にある __「ホーム画面に追加」アイコン__ をタップする
 
 +++
 ## AMP導入の注意点
 それは、AMPでなければ、実現できないことか？
-この前提が崩れると、技術的な障壁による導入コストの増大、スピード改善できたけれど思うような結果に繋がらない。
+
+この詰めが甘いと・・・
+@ul
+- 技術的な障壁による導入コストの増大
+- スピード改善できたのに思うような結果にならない
+@ulend
 
 +++
-最終チェックポイント
+### 最終チェックポイント
 - ターゲットはモバイルデバイスか？
 - AMPでなくてもスピード改善で十分早くなる
 
 
 +++
 
-AMPで、より良いUXを提供しましょう！
-@snap[midpoint span-50]
-@img[AMP logo](assets/images/amp.png)
+@snap[midpoint span-80]
+@img[AMP logo](assets/images/logo_yoshiko.png)
+# AMPで、より良いUXを提供しましょう！
 @snapend
