@@ -1,5 +1,6 @@
-![AMP logo](assets/images/amp.png)
-
+@snap[midpoint span-50]
+![AMP logo](assets/images/amp_logo.png)
+@snapend
 
 # AMPをおさらい
 
