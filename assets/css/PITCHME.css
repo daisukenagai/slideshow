@@ -22,3 +22,6 @@ body {
 .gp-logo img {
   width: 100px;
   height: auto; }
+a img {
+  border: none;
+}

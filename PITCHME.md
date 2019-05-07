@@ -1,18 +1,20 @@
-@snap[midpoint span-50]
+@snap[midpoint span-80]
+AMPとPWAを社名検索LPに実装した結果・・・
 ![AMP logo](assets/images/amp_logo.png)
 @snapend
 
++++
 # AMPをおさらい
 
 +++
 ## AMPが早い理由
 
-
++++
 技術的な意味でのAMPとは？
 HTMLフレームワークです。
 HTMLをAMP⚡HTMLという形式に則って拡張することで、先述のAMPコンポーネンツやAMPキャッシュの恩恵を享受することができる。
 
-
++++
 # AMPを実装した
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
