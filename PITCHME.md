@@ -1,6 +1,10 @@
 @img[AMP logo](assets/images/amp.png)
 
-AMPが早い理由
+
+# AMPをおさらい
+
++++
+## AMPが早い理由
 
 
 技術的な意味でのAMPとは？
