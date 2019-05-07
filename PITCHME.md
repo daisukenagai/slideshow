@@ -140,5 +140,5 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 @snap[midpoint span-80]
 @img[AMP logo](assets/images/logo_yoshiko.png)
-  # AMPで、より良いUXを提供しましょう！
+# AMPで、より良いUXを提供しましょう！
 @snapend
