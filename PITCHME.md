@@ -1,7 +1,7 @@
 @snap[midpoint span-80]
 # AMPとPWAの
 # パワフルさを堪能しよう！
-![AMP logo](assets/images/amp_logo.png)
+![AMP and PWA logo](assets/images/pwamp.jpg)
 @snapend
 
 +++
@@ -12,17 +12,19 @@
 - オフライン表示を可能にするPWA
 @ulend
 
-+++
 
 @snap[midpoint span-80]
-![doge](assets/images/doge.png)
+![AMP logo](assets/images/amp_logo.png)
 # AMPをざっくりとおさらい
+AMPとはwebサイトを爆速で表示させるためのものです
 @snapend
 
 +++
 
 @snap[midpoint span-80]
 ## 高速化の重要性
+![doge](assets/images/doge.png)
+なんで高速表示が大事なの？
 @snapend
 
 +++
@@ -36,8 +38,13 @@
 +++
 
 ## AMPが早い理由
+@snap[midpoint span-80]
+![sonic](assets/images/sonic.gif)
+@snapend
+@ul
 - 挙動が遅くなるものを読み込ませない
 - AMPキャッシュというCDNが使える
+@ulend
 
 +++
 
@@ -48,37 +55,40 @@
 
 +++
 
-## AMPを実装したサイトを紹介
+## AMPを実装してみた
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
-☝️Tips
+@snap[midpoint span-80]
+#### ☝️Tips
+@snapend
+
 - 静的コンテンツにのみ使えると思われがちなAMPですが
 - 動的なコンテンツも扱うことができます。
-- サンプルサイトの動的部分は、ランキングエリアです。
 
 +++
 
 ## スピードを計測してみよう
-  #### 非AMP
-  https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
+### 非AMP
+https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
 
-  #### AMP
-  https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
+### AMP
+https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 
 ### Light houseで測定しよう
 @ol
-  1. Chrome Devtools -> Auditsタブ
-  1. performanceだけにチェックを入れて、**Run audits**
+1. Chrome Devtools -> Auditsタブ
+1. performanceだけにチェックを入れて、**Run audits**
 @olend
 
 +++
 
 @snap[midpoint span-80]
+![PWAロゴ画像](assets/images/pwa.jpg)
 # PWAMPでユーザーとの距離を一気に縮める
-    pwampとは、AMPとPWAを併用することです
+pwampとは、AMPとPWAを併用することです
 @snapend
 
 +++
@@ -86,17 +96,36 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 ## PWAとは？
 
 +++
+@snap[midpoint span-80]
   > プログレッシブ ウェブアプリ はウェブとアプリの両方の利点を兼ね備えたアプリです。
+  >
   > 不安定なネットワークでも迅速に起動し、関連性の高いプッシュ通知を送信することができます。
+  >
   > また、ホーム画面にアイコンを表示することができ、トップレベルの全画面表示で読み込むことができます。
+
+  ![doge](assets/images/doge.png)
+@snapend
 
 +++
 
-### 要するに・・・
+### 要するに、普通のLPでも・・・
+@ul
+- スマホのホーム画面に追加できる
+- オフラインでも閲覧できる
+- プッシュ通知を行うことができる
+@ulend
++++
 
-  - スマホのホーム画面に追加できる
-  - オフラインでも閲覧できる
-  - プッシュ通知を行うことができる
+@snap[midpoint span-80]
+![coin](assets/images/coin.gif)
+@snapend
+
+  ### ということは・・・
+
+@ul
+- ユーザー・エンゲージメントの向上
+- pull型からpush型のアプローチへ
+@ulend
 
 +++
 
@@ -113,10 +142,9 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 +++
 ### Androidのchrome場合
 @ol
-  1. インストールを促すバナーが表示される
-  1. __ホームスクリーンに追加__ する
+1. インストールを促すバナーが表示される
+1. __ホームスクリーンに追加__ する
 @olend
-
 
 
 ### iOSのsafari場合
@@ -124,23 +152,32 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 ## AMP導入の注意点
-  それは、AMPでなければ、実現できないことか？
 
-    この詰めが甘いと・・・
+それは、
+__AMPでなければ、実現できないことか？__
+をもう一度考えましょう
+
++++
+
+この詰めが甘いと・・・
+
 @ul
   - 技術的な障壁による導入コストの増大
   - スピード改善できたのに思うような結果にならない
 @ulend
+
+@snap[midpoint span-80]
+![trump](assets/images/trump-eclipse.png)
+@snapend
 
 +++
 ### 最終チェックポイント
 - ターゲットはモバイルデバイスか？
 - AMPでなくてもスピード改善で十分早くなる
 
-
 +++
 
 @snap[midpoint span-80]
-@img[AMP logo](assets/images/logo_yoshiko.png)
+![cool doge](assets/images/cool-doge.gif)
 # AMPで、より良いUXを提供しましょう！
 @snapend
