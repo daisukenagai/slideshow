@@ -118,14 +118,16 @@ pwampとは、AMPとPWAを併用することです
 
 @snap[midpoint span-80]
 ![coin](assets/images/coin.gif)
-@snapend
-
-### ということは・・・
+### ということは・・・！
 
 @ul
 - ユーザー・エンゲージメントの向上
 - pull型からpush型のアプローチへ
 @ulend
+
+@snapend
+
+
 
 +++
 
