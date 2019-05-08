@@ -59,9 +59,7 @@ AMPとはwebサイトを爆速で表示させるためのものです
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
-@snap[midpoint span-80]
 #### ☝️Tips
-@snapend
 
 - 静的コンテンツにのみ使えると思われがちなAMPですが
 - 動的なコンテンツも扱うことができます。
