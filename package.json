@@ -5,22 +5,14 @@
   "repository": "git@github.com:daisukenagai/slideshow.git",
   "author": "daisukenagai <tukinuketa@gmail.com>",
   "license": "MIT",
-  "watch": {
-    "copy": {
-      "patterns": [
-        "./"
-      ],
-      "extensions": ".md"
-    }
-  },
   "scripts": {
-    "copy": "cpx PITCH.md offline_preview/assets/md/",
-    "watch": "npm-watch copy",
-    "server": "browser-sync start --server offline_preview/assets/md/PITCH.md -f offline_preview/assets/md/PITCH.md -w offline_preview/assets/md/PITCH.md",
-    "dev": "run-p watch server"
+    "copy": "cpx PITCHME.md offline_preview/assets/md/ --watch",
+    "server": "browser-sync start --server offline_preview/ -f offline_preview/ -w offline_preview/",
+    "dev": "run-p copy server"
   },
   "dependencies": {
     "browser-sync": "^2.26.5",
-    "npm-watch": "^0.6.0"
+    "cpx": "^1.5.0",
+    "npm-run-all": "^4.1.5"
   }
 }
