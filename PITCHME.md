@@ -1,7 +1,6 @@
 @snap[midpoint span-80]
 # AMPとPWAの
 # パワフルさを堪能しよう！
-![AMP and PWA logo](assets/images/pwamp.jpg)
 @snapend
 
 +++
