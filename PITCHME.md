@@ -70,7 +70,7 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 ## スピードを計測してみよう
 ### 非AMP
-https://top.dhc.co.jp/shop/ad/cam_dhc/diet_sey.html
+https://top.dhc.co.jp/shop/ad/sph/cam_dhc/diet_se.html
 
 ### AMP
 https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
