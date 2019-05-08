@@ -1,7 +1,7 @@
 layout : center-left
 theme : night
 theme-override : assets/css/PITCHME.css
-highlight : white
+highlight : monokai
 logo : assets/images/logo_yoshiko.png
 published : true
 transition : fade
