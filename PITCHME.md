@@ -103,7 +103,7 @@ pwampとは、AMPとPWAを併用することです
   >
   > また、ホーム画面にアイコンを表示することができ、トップレベルの全画面表示で読み込むことができます。
 
-  ![doge](assets/images/doge.png)
+![doge](assets/images/doge.png)
 @snapend
 
 +++
