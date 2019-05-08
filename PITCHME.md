@@ -38,9 +38,6 @@ AMPとはwebサイトを爆速で表示させるためのものです
 +++
 
 ## AMPが早い理由
-@snap[midpoint span-80]
-![sonic](assets/images/sonic.gif)
-@snapend
 @ul
 - 挙動が遅くなるものを読み込ませない
 - AMPキャッシュというCDNが使える
@@ -77,8 +74,8 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 ### Light houseで測定しよう
 @ol
-1. Chrome Devtools -> Auditsタブ
-1. performanceだけにチェックを入れて、**Run audits**
+- Chrome Devtools -> Auditsタブ
+- performanceだけにチェックを入れて、**Run audits**
 @olend
 
 +++
