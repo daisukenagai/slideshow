@@ -8,37 +8,46 @@ body {
  strong {
    color: #4fbaee;
  }
-ul li {
-  margin: 2rem;
-}
 img {
   width: 30%;
 }
 .reveal {
-  max-width: 961px;
+  max-width: 961fpx;
   padding: 0 1.5rem;
   margin: 0 auto; }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal p, .reveal ul, .reveal li, .reveal ol {
-    font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, Times, serif !important; }
+    font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, Times, serif !important;
+  }
+  .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5 {
+    margin-bottom: 1.2rem;
+  }
   .reveal h1 {
-    font-size: 1.5em;
-    line-height: 1.8em;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
    }
   .reveal h2 {
-    font-size: 1.3em;
-    line-height: 1.5em;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+   }
+  .reveal h3 {
+    font-weight: 600;
+    font-size: 1.1;
    }
   .reveal h4 {
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 1;
+   }
   .reveal code {
     color: #4fbaee; }
   .reveal p, .reveal li {
-    line-height: 1.2em; }
+    margin: 1rem;
+   }
   .reveal section img {
     border: none;
+    box-shadow: 0:
+    background-color: transparent;
   }
 
 .gp-logo img {
-  float: right;
   width: 120px;
   height: auto; }
