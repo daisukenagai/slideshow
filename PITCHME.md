@@ -12,6 +12,7 @@
 - オフライン表示を可能にするPWA
 @ulend
 
++++
 
 @snap[midpoint span-80]
 # AMPをざっくりとおさらい
