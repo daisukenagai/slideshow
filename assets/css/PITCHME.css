@@ -8,9 +8,6 @@ body {
  strong {
    color: #4fbaee;
  }
-img {
-  min-width: 200px;
-}
 .reveal {
   max-width: 961fpx;
   padding: 0 1.5rem;
@@ -46,4 +43,5 @@ img {
     border: none;
     box-shadow: 0:
     background-color: transparent;
+    min-width: 200px;
   }
