@@ -116,18 +116,11 @@ pwampとは、AMPとPWAを併用することです
 @ulend
 +++
 
-@snap[midpoint span-80]
-![coin](assets/images/coin.gif)
 ### ということは・・・！
-
 @ul
 - ユーザー・エンゲージメントの向上
 - pull型からpush型のアプローチへ
 @ulend
-
-@snapend
-
-
 
 +++
 
@@ -167,10 +160,6 @@ __AMPでなければ、実現できないことか？__
 - 技術的な障壁による導入コストの増大
 - スピード改善できたのに思うような結果にならない
 @ulend
-@snap[midpoint span-80]
-
-![trump](assets/images/trump-eclipse.png)
-@snapend
 
 +++
 ### 最終チェックポイント
