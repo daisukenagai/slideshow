@@ -14,7 +14,6 @@
 
 
 @snap[midpoint span-80]
-![AMP logo](assets/images/amp_logo.png)
 # AMPをざっくりとおさらい
 AMPとはwebサイトを爆速で表示させるためのものです
 @snapend
@@ -86,7 +85,6 @@ https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 +++
 
 @snap[midpoint span-80]
-![PWAロゴ画像](assets/images/pwa.jpg)
 # PWAMPでユーザーとの距離を一気に縮める
 pwampとは、AMPとPWAを併用することです
 @snapend
