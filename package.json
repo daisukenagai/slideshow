@@ -1,0 +1,26 @@
+{
+  "name": "slideshow",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:daisukenagai/slideshow.git",
+  "author": "daisukenagai <tukinuketa@gmail.com>",
+  "license": "MIT",
+  "watch": {
+    "copy": {
+      "patterns": [
+        "./"
+      ],
+      "extensions": ".md"
+    }
+  },
+  "scripts": {
+    "copy": "cpx PITCH.md offline_preview/assets/md/",
+    "watch": "npm-watch copy",
+    "server": "browser-sync start --server offline_preview/assets/md/PITCH.md -f offline_preview/assets/md/PITCH.md -w offline_preview/assets/md/PITCH.md",
+    "dev": "run-p watch server"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.5",
+    "npm-watch": "^0.6.0"
+  }
+}
