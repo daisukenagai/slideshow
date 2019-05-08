@@ -9,7 +9,7 @@ body {
    color: #4fbaee;
  }
 img {
-  width: 50%;
+  min-width: 200px;
 }
 .reveal {
   max-width: 961fpx;
@@ -47,7 +47,3 @@ img {
     box-shadow: 0:
     background-color: transparent;
   }
-
-.gp-logo img {
-  width: 35%;
-  height: auto; }

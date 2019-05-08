@@ -120,7 +120,7 @@ pwampとは、AMPとPWAを併用することです
 ![coin](assets/images/coin.gif)
 @snapend
 
-  ### ということは・・・
+### ということは・・・
 
 @ul
 - ユーザー・エンゲージメントの向上
@@ -136,8 +136,8 @@ pwampとは、AMPとPWAを併用することです
 
 +++
 
-#### スマホのブラウザで以下を開く
-    https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
+### スマホのブラウザで以下を開く
+#### https://amp.ca-test-dhc.com/shop/ad_amp/limited_offer_mb/
 
 +++
 ### Androidのchrome場合
