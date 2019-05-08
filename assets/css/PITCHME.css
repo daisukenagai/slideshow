@@ -4,16 +4,19 @@
 body {
   font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, Times, serif !important;
   line-height: 1rem;
-  padding: 1.5rem;
  }
  strong {
    color: #4fbaee;
  }
-li {
-  margin: 1rem;
+ul li {
+  margin: 2rem;
+}
+img {
+  width: 30%;
 }
 .reveal {
   max-width: 961px;
+  padding: 0 1.5rem;
   margin: 0 auto; }
   .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal p, .reveal ul, .reveal li, .reveal ol {
     font-family: "Rounded Mplus 1c", 游明朝, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", HG明朝E, "MS P明朝", "MS 明朝", Georgia, Times, serif !important; }
@@ -36,5 +39,6 @@ li {
   }
 
 .gp-logo img {
-  width: 100px;
+  float: right;
+  width: 120px;
   height: auto; }
