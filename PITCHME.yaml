@@ -2,7 +2,7 @@ layout : center-left
 theme : night
 theme-override : assets/css/PITCHME.css
 highlight : monokai
-# logo : assets/images/logo_yoshiko.png
+logo : assets/images/octcat.png
 # published : true
 transition : fade
-footnote : "2019.05"
+footnote : "2019.07"
