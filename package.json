@@ -6,9 +6,10 @@
   "author": "daisukenagai <tukinuketa@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "copy": "cpx PITCHME.md offline_preview/assets/md/ --watch",
-    "server": "browser-sync start --server offline_preview/ -f offline_preview/ -w offline_preview/",
-    "dev": "run-p copy server"
+    "copy_md": "cpx ./PITCHME.md ./offline_preview/assets/md/ --watch",
+    "copy_img": "cpx \"./img/*.{jpg,png,gif,svg}\" ./offline_preview/assets/img/ --watch",
+    "server": "browser-sync start --server offline_preview/ -f ./offline_preview/ -w ./offline_preview/",
+    "dev": "run-p copy_md copy_img server"
   },
   "dependencies": {
     "browser-sync": "^2.26.5",
