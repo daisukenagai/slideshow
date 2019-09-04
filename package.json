@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "copy_md": "cpx ./PITCHME.md ./offline_preview/assets/md/ --watch",
-    "copy_img": "cpx \"./assets/img/*.{jpg,png,gif,svg}\" ./offline_preview/assets/",
+    "copy_img": "cpx \"./assets/img/*.{jpg,png,gif,svg}\" ./offline_preview/assets/img/",
     "server": "browser-sync start --server offline_preview/ -f ./offline_preview/ -w ./offline_preview/",
     "dev": "run-p copy_md server"
   },

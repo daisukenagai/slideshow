@@ -3,8 +3,8 @@
 ## Githubのススメ
 +++
 
-### Githubをご存知ですか？
-![github mark](assets/img/gh_mark.png)
+## Githubをご存知ですか？
+## ![github mark](assets/img/gh_mark.png)
 
 +++
 ## ディレクターに導入すべき
