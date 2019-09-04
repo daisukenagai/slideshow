@@ -7,9 +7,9 @@
   "license": "MIT",
   "scripts": {
     "copy_md": "cpx ./PITCHME.md ./offline_preview/assets/md/ --watch",
-    "copy_img": "cpx \"./img/*.{jpg,png,gif,svg}\" ./offline_preview/assets/img/ --watch",
+    "copy_img": "cpx \"./assets/img/*.{jpg,png,gif,svg}\" ./offline_preview/assets/",
     "server": "browser-sync start --server offline_preview/ -f ./offline_preview/ -w ./offline_preview/",
-    "dev": "run-p copy_md copy_img server"
+    "dev": "run-p copy_md server"
   },
   "dependencies": {
     "browser-sync": "^2.26.5",
