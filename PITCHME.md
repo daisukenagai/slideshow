@@ -4,7 +4,7 @@
 +++
 
 ## Githubをご存知ですか？
-## ![github mark](assets/img/gh_mark.png)
+![github mark](assets/img/octcat.png)
 
 +++
 ## ディレクターに導入すべき
