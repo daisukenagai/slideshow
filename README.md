@@ -1,4 +1,6 @@
 # create slides by gitpitch
+gitpitchを使ったスライドです。  
+webで見られるのが便利です。
 ## access my slide
 https://gitpitch.com/daisukenagai/slideshow
 
