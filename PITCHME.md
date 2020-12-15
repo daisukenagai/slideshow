@@ -35,7 +35,7 @@
 +++
 # フリーランス
 +++
-![サロン](assets/images/pf/salon.png)
+![サロン](assets/images/pf/salon2.png)
 ### 美容サロン・デザインテンプレート
 
 +++
