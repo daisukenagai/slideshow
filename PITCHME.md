@@ -3,7 +3,7 @@
 <!-- section -->
 +++
 # HAKO
-### 気軽に社内の要望を投稿できる、「web目安箱」。
+### 社員が気軽に要望を投稿できる、「web目安箱」。
 
 +++
 ![hako](assets/images/pf/hako.jpg)
@@ -12,6 +12,7 @@
 <!-- section -->
 +++
 # SLICE MEDIA
+### web上でPCでもスマホでも、誰でも簡単にサイトを作って公開
 +++
 ![LP](assets/images/pf/sm/1.jpg)
 ### プロモーション用のランディングページ
@@ -54,9 +55,5 @@
 ![bwd](assets/images/pf/fr/bwd.png)
 ### 自身のサイト
 +++
-![bwd](assets/images/pf/fr/flyer_club.jpg)
-### 自身のサイト
-+++
-
-![flyer](assets/images/pf/fr/other/flyer_club.jpg)
+![flyer](assets/images/pf/fr/others/flyer_club.jpg)
 ### クラブイベント・フライヤー
